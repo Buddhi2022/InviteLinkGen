@@ -9,7 +9,7 @@ async def link(bot, message):
 ✘ Commands Available -
 
 • `/invite or /getlink`
-    Get Main Chnnel Custom Invite Link.
+    Get Main Channel Custom Invite Link.
 
 • `/invite [custom name] or /getlink [custom name]`
     Generate Invite Link With Custom Name.
