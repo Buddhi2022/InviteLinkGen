@@ -10,8 +10,8 @@ async def link(bot, message):
     else:
       try:
          link = message.text.split()[1]
-         id =
-         await bot.revoke_chat_invite_link(-1001698267062, invite_link=link)
+         iid = message.text.split()[2]
+         await bot.revoke_chat_invite_link(iid, invite_link=link)
          await message.reply_text(f'Succesfuly revoked `{link}`')
       except:
          await message.reply_text(f'**ERROR**')
