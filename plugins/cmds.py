@@ -17,6 +17,6 @@ async def link(bot, message):
 • `/revoke [invite link] `
     Revoke Given Link **--[ADMIN CMD]--**.
 
-• `/revoke [invite link] `
+• `/ilink [channel id] `
     Revoke Given Link **--[ADMIN CMD]--**.
 """)
