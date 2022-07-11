@@ -30,8 +30,8 @@ Support: @AlphaTm_Botz_chat
 
 print(a)
 async def log():
-    if LOG_CHANNEL:
-       await bot.send_message(LOG_CHANNEL, text=a)
+    if -1001203589911:
+       await bot.send_message(-1001203589911, text=a)
        
 
 bot.run(log())
