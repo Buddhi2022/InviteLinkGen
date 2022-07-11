@@ -8,12 +8,10 @@ async def link(bot, message):
       await message.reply_text("""
 ✘ Commands Available -
 
-• `/invite`
+• `/invite or /getlink`
     Get Main Chnnel Custom Invite Link.
 
-• `/invite <text/reply to msg/reply to document>`
-    Carbonise the text, with random bg colours.
+• `/invite <custom name> or /getlink <custom name>`
+    Generate Invite Link With Custom Name.
 
-• `{i}ccarbon <color ><text/reply to msg/reply to document>`
-    Carbonise the text, with custom bg colours.
 """)
