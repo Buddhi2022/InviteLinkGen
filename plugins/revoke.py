@@ -3,7 +3,7 @@ from pyrogram.errors import *
 from config import *
 
 
-@Client.on_message(filters.chat(1961057964) & filters.command(["revoke"]))
+@Client.on_message(filters.user(ADMIN) & filters.command(["revoke"]))
 async def link(bot, message):  
     if len(message.command) == 1:
       await message.reply_text('--**Use This Format**-- \n\n **/revoke {invite link}** ')
