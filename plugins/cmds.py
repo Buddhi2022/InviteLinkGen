@@ -14,7 +14,7 @@ async def link(bot, message):
 • `/invite [custom name] or /getlink [custom name]`
     Generate Invite Link With Custom Name.
     
-• `/invite [custom name] or /getlink [custom name]`
+• `/revoke [invite link] `
     Generate Invite Link With Custom Name.
 
 """)
