@@ -1,5 +1,6 @@
 from pyrogram import *
 from pyrogram.errors import *
+from config impot
 
 
 @Client.on_message(filters.chat(-1001203589911, ADMIN) & filters.command(["revoke"]))
