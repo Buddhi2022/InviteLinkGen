@@ -15,6 +15,6 @@ async def link(bot, message):
     Generate Invite Link With Custom Name.
     
 • `/revoke [invite link] `
-    Generate Invite Link With Custom Name.
+    Revoke Given Link **--[ADMIN CMD]--**.
 
 """)
