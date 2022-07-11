@@ -3,7 +3,7 @@ from pyrogram.errors import *
 from config import *
 
 
-@Client.on_message(filters.user(ADMIN) & filters.command(["cmds"]))
+@Client.on_message(filters.command(["cmds", "cmd"]))
 async def link(bot, message):  
       await message.reply_text("""
 ✘ Commands Available -
