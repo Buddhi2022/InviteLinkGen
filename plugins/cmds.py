@@ -18,5 +18,5 @@ async def link(bot, message):
     Revoke Given Link **--[ADMIN CMD]--**.
 
 • `/ilink [channel id] `
-    Revoke Given Link **--[ADMIN CMD]--**.
+  Generate Invite Link With Custom Name.
 """)
