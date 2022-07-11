@@ -19,4 +19,7 @@ async def link(bot, message):
 
 • `/ilink [channel id] `
    Generate Invite Link With Given id.
+   
+• `/crevoke [chat id or username] [invite link] `
+   Revoke Invite Link Using Given Chat And Invite Link.
 """)
