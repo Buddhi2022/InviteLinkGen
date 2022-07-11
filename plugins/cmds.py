@@ -11,7 +11,7 @@ async def link(bot, message):
 • `/invite or /getlink`
     Get Main Chnnel Custom Invite Link.
 
-• `/invite **<custom name>** or /getlink **<custom name>**`
+• `/invite [custom name] or /getlink [custom name]`
     Generate Invite Link With Custom Name.
 
 """)
