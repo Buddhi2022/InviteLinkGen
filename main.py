@@ -27,7 +27,7 @@ Support: @AlphaTm_Botz_chat
 ➖➖➖➖➖➖➖➖➖➖
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
-L = 
+L = -1001522887959
 print(a)
 async def log():
     if L:
