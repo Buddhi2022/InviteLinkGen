@@ -9,7 +9,7 @@ Cmds
 
 '''
 
-@Client.on_message(filters.chat(-1001758633913) & filters.command(["getlink", "invite"]))
+@Client.on_message(filters.chat(--1001522887959) & filters.command(["getlink", "invite"]))
 async def link(bot, message):
     if len(message.command) == 1:
      link = await bot.create_chat_invite_link(-1001758633913, name=message.from_user.first_name)
