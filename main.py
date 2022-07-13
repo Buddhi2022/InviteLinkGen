@@ -27,11 +27,11 @@ Support: @AlphaTm_Botz_chat
 ➖➖➖➖➖➖➖➖➖➖
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
-
+L = 
 print(a)
 async def log():
-    if -1001203589911:
-       await bot.send_message(-1001203589911, text=a)
+    if L:
+       await bot.send_message(L, text=a)
        
 
 bot.run(log())
